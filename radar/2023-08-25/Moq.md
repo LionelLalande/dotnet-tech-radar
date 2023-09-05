@@ -1,8 +1,7 @@
 ---
 title: "Moq"
 ring: assess
-quadrant: languages-and-frameworks 
-featured: true
+quadrant: languages-and-frameworks
 tags: ["library","testing","mock, fakes & stubs"]
 --- 
 Moq is a popular open-source mocking library for .NET that is used for creating mock objects in unit tests. Mock objects are simulated objects that mimic the behavior of real objects, allowing you to isolate the code you want to test and control the behavior of dependencies during testing.
@@ -41,3 +40,7 @@ Moq integrates with popular .NET testing frameworks like NUnit, xUnit, and MSTes
 
 ## NuGet Package: 
 Moq is available as a NuGet package, making it easy to integrate into your .NET projects.
+
+- Documentation: https://github.com/moq/moq/wiki/Quickstart
+- Source: https://github.com/moq/moq
+- NuGet: https://www.nuget.org/packages/Moq
