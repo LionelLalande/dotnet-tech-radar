@@ -1,0 +1,39 @@
+name: Build Technology Radar
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+    - name: Setup npm
+      uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
+    - name: Build
+      run: |
+        npm ci
+        npm run build:ci
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        name: github-pages
+        path: ./build
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
