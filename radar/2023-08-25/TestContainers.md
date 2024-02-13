@@ -2,7 +2,7 @@
 title: "TestContainers"
 ring: trial
 quadrant: languages-and-frameworks
-tags: ["library","testing","containers","integration"]
+tags: ["library","testing","containers","integration testing","E2E testing"]
 --- 
 TestContainers for .NET refers to a framework or tool that allows developers to use Docker containers for testing purposes within .NET applications. Docker containers provide an isolated and reproducible environment for running applications, and TestContainers leverages this concept to help streamline integration and end-to-end testing.
 

@@ -2,7 +2,7 @@
 title: "Verify"
 ring: adopt
 quadrant: languages-and-frameworks
-tags: ["library","testing","snapshotting"]
+tags: ["library","testing","snapshot testing"]
 --- 
 Verify is a snapshot tool that simplifies the assertion of complex data models and documents.
 

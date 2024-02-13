@@ -2,7 +2,7 @@
 title: "SignalR"
 ring: hold
 quadrant: languages-and-frameworks
-tags: ["framework","web"]
+tags: ["framework","web","communication"]
 --- 
 
 

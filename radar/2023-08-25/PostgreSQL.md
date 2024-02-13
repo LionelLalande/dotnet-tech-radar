@@ -2,7 +2,7 @@
 title: "PostgreSQL"
 ring: adopt
 quadrant: platforms
-tags: ["database", "relational database"]
+tags: ["database","relational database"]
 --- 
 
 - Documentation: https://www.postgresql.org/

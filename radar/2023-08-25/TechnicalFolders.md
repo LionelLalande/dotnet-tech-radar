@@ -1,6 +1,6 @@
 ---
 title: "Technical Folders"
-ring: hold
+ring: adopt
 quadrant: methods-and-patterns
 tags: []
 --- 

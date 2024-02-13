@@ -2,7 +2,7 @@
 title: "Sonar Analyzers"
 ring: adopt
 quadrant: tools
-tags: ["analyzers"]
+tags: ["analyzers","quality"]
 --- 
 Static analysis of C# and VB.NET languages in SonarQube, SonarCloud and SonarLint code quality and security products. These Roslyn analyzers allow you to produce safe, reliable and maintainable code by helping you find and correct bugs, vulnerabilities and code smells in your codebase.
 

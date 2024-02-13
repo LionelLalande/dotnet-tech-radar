@@ -2,7 +2,7 @@
 title: "pre-commit"
 ring: adopt
 quadrant: tools
-tags: ["git hooks"]
+tags: ["git"]
 --- 
 pre-commit is a tool used to manage and maintain pre-commit hooks in a Git repository. It helps automate and enforce checks on code before it's committed, ensuring that certain criteria are met before allowing the commit to proceed.
 

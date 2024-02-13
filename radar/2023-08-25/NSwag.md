@@ -2,7 +2,7 @@
 title: "NSwag"
 ring: trial
 quadrant: languages-and-frameworks
-tags: ["library","REST API"]
+tags: ["library","OpenApi"]
 --- 
 NSwag is a Swagger/OpenAPI 2.0 and 3.0 toolchain for .NET, .NET Core, Web API, ASP.NET Core, TypeScript (jQuery, AngularJS, Angular 2+, Aurelia, KnockoutJS and more) and other platforms, written in C#. The OpenAPI/Swagger specification uses JSON and JSON Schema to describe a RESTful web API. The NSwag project provides tools to generate OpenAPI specifications from existing ASP.NET Web API controllers and client code from these OpenAPI specifications.
 

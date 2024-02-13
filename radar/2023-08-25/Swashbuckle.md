@@ -2,7 +2,7 @@
 title: "Swashbuckle"
 ring: adopt
 quadrant: languages-and-frameworks
-tags: ["library","REST API"]
+tags: ["library","OpenApi"]
 --- 
 Swagger tooling for APIs built with ASP.NET Core. Generate beautiful API documentation, including a UI to explore and test operations, directly from your routes, controllers and models.
 
